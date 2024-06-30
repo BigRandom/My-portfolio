@@ -1,0 +1,63 @@
+# Файли Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Віртуальні середовища
+env/
+venv/
+ENV/
+VENV/
+env.bak/
+venv.bak/
+
+# Специфічні файли Django
+*.log
+*.pot
+*.pyc
+*.mo
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Конфігураційні файли
+local_settings.py
+.env
+
+# Системи IDE
+.vscode/
+.idea/
+*.swp
+
+# Згенеровані папки
+.DS_Store
+*.egg-info/
+.eggs/
+
+# Node modules та Yarn (якщо використовуєте інструменти для front-end у проекті)
+node_modules/
+yarn.lock
+package-lock.json
+
+# Статичні файли та медіафайли
+staticfiles/
+media/
+
+# Файли збірки
+build/
+dist/
+
+# Вихідні файли тестів/важкі логи
+htmlcov/
+.tox/
+coverage/
+nosetests.xml
+unittest.xml
+test-results/
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
